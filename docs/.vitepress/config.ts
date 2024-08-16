@@ -4,8 +4,10 @@ export default defineConfig({
   title: "DOLLS",
   description: "地图组件库",
   lang: "cn-ZH",
-  base: "/dolls/",
   lastUpdated: true,
+  head: [
+    ['link', {rel: 'icon', href: '/favicon.svg'}]
+  ],
   themeConfig: {
     logo: "/favicon.svg",
     siteTitle: "DOLLS",
@@ -15,15 +17,14 @@ export default defineConfig({
         text: "指引",
         link: "/components/"
       },
-      { text: "基础组件", link: "/components/DButton/base.md" },
+      { text: "地图组件", link: "/components/DMap/base.md" },
     ],
     sidebar: {
       "/components": [
         {
-          text: "常用组件",
+          text: "Map",
           items: [
-            { text: "Button组件", link: "/components/DButton/base.md" },
-            {text: "地图组件", link: "/components/DMap/base.md"}
+            { text: "地图组件", link: "/components/DMap/base.md" }
           ]
         },
       ]

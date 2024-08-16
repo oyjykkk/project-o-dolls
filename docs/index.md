@@ -7,8 +7,8 @@ editLink: true
 lastUpdated: true
 hero:
   name: DOLLS
-  text: vue3基础组件
-  tagline: Vue3 中基于Element-plus二次封装基础组件文档
+  text: 地图组件
+  tagline: 基于Leaflet二次封装组件文档
   image:
     src: /img/dolls-logo.png
     alt: DOLLS
@@ -18,7 +18,7 @@ hero:
       link: /components/
     - theme: brand
       text: 组件预览
-      link: /components/DButton/base.md
+      link: /components/DMap/base.md
 features:
   - icon: 🔨
     title: 优点1

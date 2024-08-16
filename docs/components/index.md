@@ -2,7 +2,7 @@
 
 ::: tip 提示
 
-dolls 基于 vue3 + ts + Element-plus 再次封装的基础组件
+基于 LeafletMap  封装的地图组件
 
 :::
 
