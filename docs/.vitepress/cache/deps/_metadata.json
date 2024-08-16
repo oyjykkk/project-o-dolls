@@ -1,0 +1,68 @@
+{
+  "hash": "642a01ca",
+  "browserHash": "ec515b9a",
+  "optimized": {
+    "vue": {
+      "src": "../../../../node_modules/.pnpm/vue@3.3.4/node_modules/vue/dist/vue.runtime.esm-bundler.js",
+      "file": "vue.js",
+      "fileHash": "05461f17",
+      "needsInterop": false
+    },
+    "element-plus": {
+      "src": "../../../../node_modules/.pnpm/element-plus@2.8.0_vue@3.3.4/node_modules/element-plus/es/index.mjs",
+      "file": "element-plus.js",
+      "fileHash": "8e92f2c2",
+      "needsInterop": false
+    },
+    "element-plus/es/locale/lang/zh-cn": {
+      "src": "../../../../node_modules/.pnpm/element-plus@2.8.0_vue@3.3.4/node_modules/element-plus/es/locale/lang/zh-cn.mjs",
+      "file": "element-plus_es_locale_lang_zh-cn.js",
+      "fileHash": "55234d95",
+      "needsInterop": false
+    },
+    "@element-plus/icons-vue": {
+      "src": "../../../../node_modules/.pnpm/@element-plus+icons-vue@2.3.1_vue@3.3.4/node_modules/@element-plus/icons-vue/dist/index.js",
+      "file": "@element-plus_icons-vue.js",
+      "fileHash": "9ffb81ac",
+      "needsInterop": false
+    },
+    "@vueuse/core": {
+      "src": "../../../../node_modules/.pnpm/@vueuse+core@9.13.0_vue@3.3.4/node_modules/@vueuse/core/index.mjs",
+      "file": "@vueuse_core.js",
+      "fileHash": "0fc4d3ae",
+      "needsInterop": false
+    },
+    "leaflet": {
+      "src": "../../../../node_modules/.pnpm/leaflet@1.9.4/node_modules/leaflet/dist/leaflet-src.js",
+      "file": "leaflet.js",
+      "fileHash": "b22517b4",
+      "needsInterop": true
+    },
+    "leaflet.heat": {
+      "src": "../../../../node_modules/.pnpm/leaflet.heat@0.2.0/node_modules/leaflet.heat/dist/leaflet-heat.js",
+      "file": "leaflet__heat.js",
+      "fileHash": "aee6a896",
+      "needsInterop": true
+    },
+    "leaflet.markercluster": {
+      "src": "../../../../node_modules/.pnpm/leaflet.markercluster@1.5.3_leaflet@1.9.4/node_modules/leaflet.markercluster/dist/leaflet.markercluster-src.js",
+      "file": "leaflet__markercluster.js",
+      "fileHash": "73835dc4",
+      "needsInterop": true
+    }
+  },
+  "chunks": {
+    "chunk-IKDDLZDE": {
+      "file": "chunk-IKDDLZDE.js"
+    },
+    "chunk-MNJXOGE2": {
+      "file": "chunk-MNJXOGE2.js"
+    },
+    "chunk-67UUJLDS": {
+      "file": "chunk-67UUJLDS.js"
+    },
+    "chunk-UXIASGQL": {
+      "file": "chunk-UXIASGQL.js"
+    }
+  }
+}
