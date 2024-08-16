@@ -6,8 +6,6 @@ import "element-plus/theme-chalk/dark/css-vars.css"
 import locale from "element-plus/es/locale/lang/zh-cn"
 // 图标并进行全局注册
 import * as ElementPlusIconsVue from "@element-plus/icons-vue"
-import TVHtml from "../components/TVHtml.vue"
-import TIcon from "../components/TIcon.vue"
 import { VPDemo } from "../vitepress"
 // 基于element-plus二次封装基础组件
 import Doll from "../../../packages"
@@ -29,9 +27,6 @@ export default {
     ctx.app.use(Doll)
 
     ctx.app.component("Demo", VPDemo)
-    ctx.app.component("TVHtml", TVHtml)
-    ctx.app.component("TIcon", TIcon)
-
     // try {
     //   // 引入高德资源
     //   window['_AMapSecurityConfig'] = {
