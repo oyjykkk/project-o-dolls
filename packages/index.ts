@@ -26,7 +26,7 @@ if (typeof window !== "undefined" && window.Vue) {
 }
 
 // 按需引入
-export { DButton };
+export { DButton, DMap };
 
 export default {
   // 为了被Vue.use()方法安装

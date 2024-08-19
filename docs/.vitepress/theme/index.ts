@@ -7,7 +7,6 @@ import locale from "element-plus/es/locale/lang/zh-cn"
 // 图标并进行全局注册
 import * as ElementPlusIconsVue from "@element-plus/icons-vue"
 import { VPDemo } from "../vitepress"
-// 基于element-plus二次封装基础组件
 import Doll from "../../../packages"
 import "../../public/css/index.css"
 

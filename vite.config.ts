@@ -35,21 +35,6 @@ export default defineConfig({
     open: true,
     https: false,
     proxy: {
-      '^/mes': {
-        target: `http://10.0.10.243:5000/mesv2/`,
-        changeOrigin: true,
-        rewrite: (p) => p.replace(/^\/mes/, ''),
-      },
-      '^/portal-user': {
-        target: `http://10.0.10.240:8172`,
-        changeOrigin: true,
-        rewrite: (p) => p.replace(/^\/portal-user/, '/portal-user'),
-      },
-      '^/portal-sso': {
-        target: `http://10.0.10.240:8171`,
-        changeOrigin: true,
-        rewrite: (p) => p.replace(/^\/portal-sso/, '/portal-sso'),
-      },
     },
   },
   resolve: {
