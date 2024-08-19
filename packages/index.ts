@@ -1,5 +1,5 @@
 import DButton from "./button";
-import DMap from "./DMap";
+import DMap from "./map";
 import type { Component, App } from "vue";
 
 const components: {
@@ -11,7 +11,6 @@ const components: {
 
 const installComponents = (app: App) => {
   for (const key in components) {
-    console.log(key, 'kkk')
     app.component(key, components[key]);
   }
 };
